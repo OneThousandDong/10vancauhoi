@@ -104,6 +104,16 @@
 .body-page .text-introduce-app {
   margin: 10px 30px;
   padding: 20px;
-  font-size: 13px;
+  font-size: 14px;
   text-rendering: optimizeLegibility;
+}
+#more {
+  display: none;
+}
+.body-page .text-introduce-app #myBtn {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 204, 0);
+  margin: 40%;
 }
